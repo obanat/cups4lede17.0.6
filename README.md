@@ -5,9 +5,9 @@ for OpenWrt.
 
 Notably it has:
 - Ghostscript 9.06
-- Gutenprint 5.2.9
-- Cups 1.6.3
-- OpenPrinting's cups-filters 1.0.37
+- Gutenprint 5.2.11
+- Cups 2.1.4
+- OpenPrinting's cups-filters 1.0.37  --removed
 - poppler 0.24.1
 - many other packages to make sure the ones above work...
 
@@ -47,7 +47,7 @@ src/gz printing file:/storage/printer/packages
 
 - see `opkg-install-printing-packages.sh` to see a suggestion of what to install.
 
-- tested against *Attitude Adjustment* (because that is what I have installed...).
+- tested against *lede 17.01.6* (tplink-720n-v3).
 
 - Avahi is notified of printers added to Cups, and these will appear as *Air Printer*'s in iOS devices.
 
